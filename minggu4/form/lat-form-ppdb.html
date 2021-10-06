@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Formulir PPDB Zonasi</title> 
+</head>
+<style>
+	body{
+	background-image: url("sekolahku.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:0;}
+	/* Style the header */
+	.header{
+	padding:20px;
+	background-image: url("blue.jpg");
+	background-size: 100%;
+	color: white;
+	}
+	/* Style the top navigation bar */
+	.topnav{
+	overflow:hidden;
+	background-color:#00008B;
+	border-radius: 5px;
+	}
+	/* Style the topnav links */
+	.topnav a{
+	float:left;
+	display:block;
+	font-size:13px;
+	font-family:'Open Sans', Tahoma, sans-serif;
+	font-weight:700;
+	position:relative;
+	color:#fff;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	}
+	/* Change color on hover */
+	.topnav a:hover{
+	background-color:gray;
+	color:#40E0D0;
+	}
+	/* Form */
+	* {
+	box-sizing: border-box;
+	}
+	input[type=text], select, textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+	}
+
+	label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	}
+
+	input[type=submit] {
+	background-color: #00008B;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: bold;
+	float: right;
+	}
+
+	input[type=submit]:hover {
+	background-color: #1E90FF;
+	color:#4B0082;
+	}
+
+	.container {
+	border-radius: 5px;
+	background-image: url("galerry.jpg");
+	padding: 20px;
+	}
+
+	.col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+	}
+
+	.col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+	
+	/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+	}
+}
+</style>
+<body>
+	<div class="header">
+		<h1 style="text-align:center; margin-bottom:-75px; margin-top:25px;">FORMULIR PENDAFTARAN PPDB 2021</h1>
+		<img src="tutwuri.png" style="max-width:110px; padding:0px; border:none;">
+		<img src="kampusmerdeka.png" style="max-width:200px; padding:0px; border:none; float:right;">
+	</div>
+	<div class="topnav">
+		<a href="">Home</a>
+		<a href="">Jadwal</a>
+		<a href="about/biodata.html">About</a>
+	</div>
+<div class="container">
+	<form action="" method="post">
+	<h2>DATA CALON PESERTA</h2><hr align="center" width="100%" style="border-top: 2px double #1E90FF;"></hr>
+	<div class="row">
+		<div class="col-25">
+			<label for="nisn">NISN</label>
+		</div>
+		<div class="col-75">
+			<input type="number" id="nisn" name="nisn">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="asalSekolah">Asal Sekolah</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="asalSekolah" name="asalSekolah">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="tahunLulus">Tahun Lulus</label>
+		</div>
+		<div class="col-75">
+			<select id="tahunLulus" name="tahunLulus">
+				<option value="21">2021</option>
+				<option value="20">2020</option>
+				<option value="19">2019</option>
+				<option value="18">2018</option>
+				<option value="17">2017</option>
+				<option value="16">2016</option>
+				<option value="15">2015</option>
+				<option value="14">2014</option>
+				<option value="13">2013</option>
+				<option value="12">2012</option>
+			</select>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="namaLengkap">Nama Lengkap</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="namaLengkap" name="namaLengkap">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="nik">NIK</label>
+		</div>
+		<div class="col-75">
+			<input type="number" id="nik" name="nik">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="ttl">Tempat/Tanggal Lahir</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="ttl" name="ttl">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="jenisKelamin">Jenis Kelamin</label>
+		</div>
+		<div class="col-75">
+			<input type="radio" id="jenisKelamin" name="jenisKelamin" value="Laki-laki">Laki-laki
+			<input type="radio" id="jenisKelamin" name="jenisKelamin" value="Perempuan">Perempuan
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="alamat">Alamat</label>
+		</div>
+		<div class="col-75">
+			<textarea id="alamat" name="alamat" placeholder="Alamat rumah anda.." style="height:150px"></textarea>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="desaKelurahan">Desa/Kelurahan</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="desaKelurahan" name="desaKelurahan">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="kecamatan">Kecamatan</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="kecamatan" name="kecamatan">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="kabupaten">Kabupaten</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="kabupaten" name="kabupaten">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="provinsi">Provinsi</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="provinsi" name="provinsi">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="email">Email Aktif</label>
+		</div>
+		<div class="col-75">
+			<input type="email" id="email" name="email">
+		</div>
+	</div>
+	<h2>DATA ORANG TUA</h2><hr align="center" width="100%" style="border-top: 2px double #1E90FF;"></hr>
+	<div class="row">
+		<div class="col-25">
+			<label for="noKK">Nomor Kartu Keluarga</label>
+		</div>
+		<div class="col-75">
+			<input type="number" id="noKK" name="noKK">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="namaAyah">Nama Ayah Kandung</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="namaAyah" name="namaAyah">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="agamaAyah">Agama</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="agamaAyah" name="agamaAyah">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="pekerjaanAyah">Pekerjaan</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="pekerjaanAyah" name="pekerjaanAyah">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="namaIbu">Nama Ibu Kandung</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="namaIbu" name="namaIbu">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="agamaIbu">Agama</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="agamaIbu" name="agamaIbu">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="pekerjaanIbu">Pekerjaan</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="pekerjaanIbu" name="pekerjaanIbu">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="alamatOrtu">Alamat</label>
+		</div>
+		<div class="col-75">
+			<textarea id="alamat" name="alamatOrtu" placeholder="Alamat Orang Tua anda.." style="height:150px"></textarea>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="desaKelurahanOrtu">Desa/Kelurahan</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="desaKelurahanOrtu" name="desaKelurahanOrtu">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="kecamatanOrtu">Kecamatan</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="kecamatanOrtu" name="kecamatanOrtu">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="kabupatenOrtu">Kabupaten</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="kabupatenOrtu" name="kabupatenOrtu">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="provinsiOrtu">Provinsi</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="provinsiOrtu" name="provinsiOrtu">
+		</div>
+	</div>
+	<div class="row">
+		<input type="submit" name="submit" value="Submit">
+	</div>
+	</form>
+</div>
+</body>
+</html>
