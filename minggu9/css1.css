@@ -1,0 +1,101 @@
+body {
+  background: #35a9db;
+  font-family: roboto;
+  text-align: center;
+}
+h1 {
+  color: rgb(133, 0, 145);
+}
+.ketengah {
+  margin: 10px auto;
+  width: 1150px;
+}
+.kotak {
+  background: #bafd00;
+  padding: 20px;
+  width: 200px;
+  float: left;
+  margin: 20px;
+  height: 200px;
+}
+.kotak1 {
+  border-radius: 10px 10px 10px 10px;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak1:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak2 {
+  border-radius: 40px 20px 60px 90px;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak2:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak3 {
+  border-radius: 2px 140px 20px 60px;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak3:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak3 {
+  border-radius: 20px 10px 80px 10px;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak3:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak4 {
+  border-radius: 0px 50px 0px 50px;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak4:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak5 {
+  border-radius: 0px 0px 0px 0px;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak5:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak6 {
+  border-radius: 100%;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak6:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak7 {
+  border-radius: 40px 10px;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak7:hover {
+  width: 220px;
+  height: 220px;
+}
+.kotak8 {
+  border-radius: 10px 10px 50% 50%;
+  transition: width 1s, height 1s;
+  -webkit-transition: width 1s, height 1s;
+}
+.kotak8:hover {
+  width: 220px;
+  height: 220px;
+}
